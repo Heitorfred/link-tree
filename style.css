@@ -7,11 +7,10 @@
 }
 
 :root{
---black: #141414
+--black: #141414;
 --dark-grey: #1F1F1F
---whitesmoke: #
-
-
+--purple:  #612fa2;
+--grey: #333
 
 
 
@@ -27,7 +26,7 @@ align-items: center ;
 
 
 div{
-    background-color: #1F1F1F;
+    background-color: #1f1e1e;
 color: whitesmoke;
 width: 384px;
 text-align: center;
@@ -41,8 +40,6 @@ font-weight: 600;
 line-height: 150%;
 margin-bottom: 4px;
 
-
-
 }
 
 img{
@@ -54,6 +51,72 @@ border-radius: 50%;
 
 
 ul, li {
-
     list-style: none;
 }
+
+strong{
+    color: #612fa2;
+        font-size: 14px;
+    }
+
+    p{
+        margin-block: 24px;
+        font-size: 14px;
+
+
+    }
+
+
+a{
+    display: block;
+background-color: var(--grey);
+margin-bottom: 16px;
+color: whitesmoke;
+text-decoration: none;
+padding: 12px;
+font-weight: 700;
+font-size: 14px;
+border-radius: 18px;
+}
+
+a:hover{
+background-color: #4a2082;
+color: whitesmoke
+transition: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
